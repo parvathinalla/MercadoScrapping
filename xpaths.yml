@@ -1,0 +1,8 @@
+product_image_url:
+    desc_of_xpath: //div[contains(@class,'ui-pdp-gallery__column')]//figure//img//@data-zoom
+product_available_inventory:
+    desc_of_xpath: //span[contains(.,'Adicionar ao carrinho')]
+product_description:
+    desc_of_xpath: "//div//*[contains(@class,'description__content')]" 
+product_price:
+    desc_of_xpath: "//meta[contains(@itemProp,'price')]/@content | //meta[contains(@itemprop,'price')]/@content"
